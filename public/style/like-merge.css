@@ -1,0 +1,266 @@
+/*
+* @author xianxia.jianxx
+* @date 2012-09-19
+* @file 互动组件公用部分
+* @ example
+*   type one :
+*
+*/
+.wk-snsdk-widget{
+}
+.wk-snsdk-widget .snsdk-clear{
+zoom:1;
+}
+.wk-snsdk-widget .snsdk-clear:after{
+display:block;
+clear:both;
+height:0;
+content:"\0020";
+}
+.wk-snsdk-widget .snsdk-hide{
+display:none;
+}
+.wk-snsdk-widget .snsdk-show{
+display:block;
+}
+.wk-snsdk-widget .widget-wrap{
+color:#333;
+}
+.wk-snsdk-widget .widget-wrap a.s-trigger:hover{
+cursor:pointer;
+}
+.wk-snsdk-widget .widget-wrap .widget-style em.s-icon{
+background:url(../images/ico-like.png) no-repeat -9999px -9999px;
+}
+.wk-snsdk-widget .widget-wrap a:link,
+.wk-snsdk-widget .widget-wrap a:visited{
+color:#333;
+text-decoration:none;
+}
+.wk-snsdk-widget .widget-wrap a:hover{
+color:#ff7300;
+}
+
+/*
+* @author xianxia.jianxx
+* @date 2012-09-19
+* @file 喜欢组件
+* @ example
+*   type one :
+*
+*/
+.wk-snsdk-like{
+}
+.wk-snsdk-like .widget-wrap .s-txt,
+.wk-snsdk-like .widget-wrap .s-counter{
+float:left;
+margin-left:6px;
+}
+.wk-snsdk-like .widget-wrap a.s-trigger span.s-txt,
+.wk-snsdk-like .widget-wrap a.s-trigger span.s-counter{
+}
+.wk-snsdk-like .widget-wrap a.s-trigger:hover span.s-txt,
+.wk-snsdk-like .widget-wrap a.s-trigger:hover span.s-counter{
+text-decoration:none;
+cursor:pointer;
+}
+.wk-snsdk-like .like-style-0 a.s-trigger img.s-icon{
+float:left;
+margin-right:6px;
+}
+.wk-snsdk-like .like-style-0 a.s-trigger span.s-txt{
+margin-left:0;
+}
+.wk-snsdk-like .like-style-1 a.s-trigger,
+.wk-snsdk-like .like-style-2 a.s-trigger{
+line-height:20px;
+}
+.wk-snsdk-like .like-style-1 a.s-trigger em.s-icon,
+.wk-snsdk-like .like-style-2 a.s-trigger em.s-icon,
+.wk-snsdk-like .like-style-3 a.s-trigger em.s-icon,
+.wk-snsdk-like .like-style-4 a.s-trigger em.s-icon{
+line-height:20px;
+width:18px;
+height:18px;
+display:inline-block;
+float:left;
+}
+.wk-snsdk-like .like-style-1 a.s-trigger:hover em.s-icon,
+.wk-snsdk-like .like-style-2 a.s-trigger:hover em.s-icon{
+border:1px solid #d0d0d0;
+border-radius:2px 2px 2px 2px;
+}
+.wk-snsdk-like .like-style-1 a.s-trigger em.s-icon{
+background-position:0px -38px;
+margin:1px;
+}
+.wk-snsdk-like .like-style-1 a.s-trigger:hover em.s-icon{
+background-position: 1px 2px;
+margin:0;
+}
+.wk-snsdk-like .like-style-2 a.s-trigger em.s-icon{
+background-position:0px -240px;
+margin:1px;
+}
+.wk-snsdk-like .like-style-2 a.s-trigger:hover em.s-icon{
+background-position: 0px -200px;
+margin:0;
+}
+.wk-snsdk-like .like-style-1 a.s-trigger-dis em.s-icon{
+background-position:1px 2px;
+margin:1px;
+}
+.wk-snsdk-like .like-style-1 a.s-trigger-dis:hover em.s-icon{
+background-position: 0px -38px;
+margin:0;
+}
+.wk-snsdk-like .like-style-2 a.s-trigger-dis em.s-icon{
+background-position: 0px -200px;
+margin:1px;
+}
+.wk-snsdk-like .like-style-2 a.s-trigger-dis:hover em.s-icon{
+background-position: 0px -240px;
+margin:0px 0 0px 0px;
+}
+.wk-snsdk-like .like-style-3,
+.wk-snsdk-like .like-style-4 {
+line-height:22px;
+}
+.wk-snsdk-like .like-style-3 a.s-trigger,
+.wk-snsdk-like .like-style-4 a.s-trigger{
+border:1px solid #cac5c5;
+overflow:hidden;
+padding:0 6px;
+float:left;
+height:22px;
+}
+.wk-snsdk-like .like-style-1 a.s-trigger,
+.wk-snsdk-like .like-style-2 a.s-trigger{
+background:none;
+display:inline-block;
+float:left;
+}
+.wk-snsdk-like .like-style-3 a.s-trigger,
+.wk-snsdk-like .like-style-4 a.s-trigger,
+.wk-snsdk-like .like-style-5 a.s-trigger,
+.wk-snsdk-like .like-style-6 a.s-trigger{
+background:#f8f8f8;
+display:inline-block;
+border-radius:3px 3px 3px 3px;
+background: -webkit-gradient(linear, 0% 100%, 0% 0%, from(#fff), to(#f1f1f1));
+background: -webkit-linear-gradient(top, #fff,#f1f1f1);
+background: -moz-linear-gradient(top, #fff,#f1f1f1);
+background: -ms-linear-gradient(top, #fff,#f1f1f1);
+background: -o-linear-gradient(top, #fff,#f1f1f1);
+}
+.wk-snsdk-like .like-style-3 a.s-trigger:hover,
+.wk-snsdk-like .like-style-4 a.s-trigger:hover,
+.wk-snsdk-like .like-style-5 a.s-trigger:hover,
+.wk-snsdk-like .like-style-6 a.s-trigger:hover{
+background:#eeeeee;
+color:#333;
+background: -webkit-gradient(linear, 0% 100%, 0% 0%, from(#e6e6e6), to(#f6f6f6));
+background: -webkit-linear-gradient(top, #e6e6e6,#f6f6f6);
+background: -moz-linear-gradient(top, #e6e6e6,#f6f6f6);
+background: -ms-linear-gradient(top,#e6e6e6,#f6f6f6);
+background: -o-linear-gradient(top,#e6e6e6,#f6f6f6);
+}
+.wk-snsdk-like .like-style-3 a.s-trigger em.s-icon,
+.wk-snsdk-like .like-style-4 a.s-trigger em.s-icon{
+margin:2px 0 2px 0;
+}
+.wk-snsdk-like .like-style-3 a.s-trigger em.s-icon{
+background-position:1px -78px;
+}
+.wk-snsdk-like .like-style-3 a.s-trigger-dis em.s-icon{
+background-position:1px 2px ;
+}
+.wk-snsdk-like .like-style-3 a.s-trigger:hover em.s-icon{
+background-position:1px 2px ;
+}
+.wk-snsdk-like .like-style-3 a.s-trigger-dis:hover em.s-icon{
+background-position:1px -78px;
+}
+.wk-snsdk-like .like-style-4 a.s-trigger em.s-icon{
+background-position:0 -240px;
+}
+.wk-snsdk-like .like-style-4 a.s-trigger-dis em.s-icon{
+background-position:0 -200px;
+}
+.wk-snsdk-like .like-style-4 a.s-trigger:hover em.s-icon{
+background-position:0 -200px;
+}
+.wk-snsdk-like .like-style-4 a.s-trigger-dis:hover em.s-icon{
+background-position:0 -240px;
+}
+.wk-snsdk-like .like-style-5 a.s-trigger,
+.wk-snsdk-like .like-style-6 a.s-trigger{
+line-height:22px;
+border:1px solid #cac5c5;
+padding:0 8px;
+height:38px;
+float:left;
+}
+.wk-snsdk-like .like-style-5 a.s-trigger em.s-icon,
+.wk-snsdk-like .like-style-6 a.s-trigger em.s-icon{
+display:inline-block;
+width:30px;
+height:30px;
+margin:5px 0px 5px 0;
+float:left;
+}
+.wk-snsdk-like .like-style-5 a.s-trigger .s-t-container,
+.wk-snsdk-like .like-style-6 a.s-trigger .s-t-container{
+float:left;
+margin-top:2px;
+}
+.wk-snsdk-like .like-style-5 a.s-trigger .s-t-container span,
+.wk-snsdk-like .like-style-6 a.s-trigger .s-t-container span{
+display:block;
+clear:both;
+line-height:18px;
+}
+.wk-snsdk-like .like-style-5 a.s-trigger .s-t-container span.s-txt{
+text-decoration:none;
+}
+.wk-snsdk-like .like-style-5 a.s-trigger .s-t-container span.s-counter,
+.wk-snsdk-like .like-style-6 a.s-trigger .s-t-container span.s-counter{
+color:#888888;
+}
+.wk-snsdk-like .like-style-5 a.s-trigger em.s-icon{
+background-position:0 -160px;
+}
+.wk-snsdk-like .like-style-5 a.s-trigger:hover em.s-icon{
+background-position:0 -120px;
+}
+.wk-snsdk-like .like-style-5 a.s-trigger-dis em.s-icon{
+background-position:0 -120px;
+}
+.wk-snsdk-like .like-style-5 a.s-trigger-dis:hover em.s-icon{
+background-position:0 -160px;
+}
+.wk-snsdk-like .like-style-6 a.s-trigger em.s-icon{
+background-position:0 -320px;
+}
+.wk-snsdk-like .like-style-6 a.s-trigger:hover em.s-icon{
+background-position:0 -280px;
+}
+.wk-snsdk-like .like-style-6 a.s-trigger-dis em.s-icon{
+background-position:0 -280px;
+}
+.wk-snsdk-like .like-style-6 a.s-trigger-dis:hover em.s-icon{
+background-position:0 -320px;
+}
+.wk-snsdk-liketip{
+text-shadow: #666 3px 3px 1px;
+position:absolute;
+width:20px;
+height:20px;
+overflow:hidden;
+line-height:28px;
+color:#d03b3b;
+font-size:20px;
+font-weight:bold;
+font-family:Arial;
+diplay:none;
+}

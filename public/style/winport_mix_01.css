@@ -1,0 +1,98 @@
+.content-wrap{
+	background:url(http://img.china.alibaba.com/cms/upload/winport/template/bg-zh01.png) #6D8473 no-repeat center top;
+}
+
+.mod .m-body {
+    border-style: none;
+    border-width: 0;
+}
+
+.mod .m-header h3{
+	padding-top: 2px;
+	font-size: 13px;
+	/**
+	 * 解决IE6下13px变大的问题
+	 */
+	_font-size:14px;
+}
+
+.mod-shopSigns .default-sub-mod .chinaname,
+.mod-shopSigns .default-sub-mod .enname{
+	color:#d0e0e9;
+}
+
+.top-nav-bar{
+    background: url("http://img.china.alibaba.com/cms/upload/2013/103/146/641301_602705795.png") #182F47;
+	font-size: 13px;
+	/**
+	 * 解决IE6下13px变大的问题
+	 */
+	_font-size:14px;
+}
+
+.top-nav-bar li.selected{
+	width: 130px;
+}
+
+.top-nav-bar li a,
+.top-nav-bar li a:hover{
+	color: #E2E2E2;
+}
+
+.top-nav-bar li.selected a{
+    background: url("http://img.china.alibaba.com/cms/upload/2013/101/956/659101_602705795.jpg");
+}
+
+.top-nav-bar li.selected a:hover{
+	color:#000000;
+}
+
+.mod .m-header{
+	color: #98B9CD;
+}
+
+.mod .m-header{
+	background:url(http://img.china.alibaba.com/cms/upload/2013/401/326/623104_602705795.png) no-repeat;
+}
+
+.app-companyViewBig .m-content .view-sub{
+	background-color: #182f45;
+}
+
+.app-companyViewBig .m-content .company-view-big-wrap,
+.app-companyViewBig .m-content .view-main .image-cover,
+.app-companyViewBig .m-content .view-sub .view-shim,
+.app-companyViewBig .m-content .view-sub .current .view-cover{
+	background-color:#265287;
+}
+
+.app-companyViewBig .m-content .view-sub .title{
+	background: url("http://img.china.alibaba.com/cms/upload/2013/102/526/625201_602705795.png");
+}
+
+.app-companyViewBig .m-content .layout-right .view-sub .title{
+	background: url("http://img.china.alibaba.com/cms/upload/2013/103/036/630301_602705795.png");
+}
+
+.mod-wholesaleDescriptionBig .order-intro-main .operate-tabs .underline{
+	 border-bottom: 4px solid #534d49;
+}
+
+.mod-wholesaleDescriptionBig .order-intro-main .operate-tabs .operate-tabs-wholesale,
+.mod-wholesaleDescriptionBig .order-intro-main .operate-tabs .operate-tabs-process,
+.mod-wholesaleDescriptionBig .m-content .order-intro-main .wholesale-desc-main .show-mix-product .show-mix-product-link{
+	color:#534d49;
+}
+
+.mod-wholesaleDescriptionBig .order-intro-main .operate-tabs{
+	border-bottom: 1px solid #534d49;
+}
+
+.mod-commentSmall .m-content .mod-snsdk-widget{
+	background: url("http://img.china.alibaba.com/cms/upload/2013/108/146/641801_602705795.png") no-repeat;
+	width:192px;
+}
+
+.mod-commentSmall .m-body{
+	background-color:transparent;
+} 
